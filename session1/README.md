@@ -15,7 +15,7 @@ Perparing work envoronment
 
 ### For Windows
 
-Python Download Page: https://www.python.org/downloads/
+Python Download Page: <https://www.python.org/downloads/>
 
 ### For Mac OS
 
@@ -51,7 +51,7 @@ Python Download Page: https://www.python.org/downloads/
 
 ### Install Pip
 
-Download get-pip.py (https://bootstrap.pypa.io/get-pip.py)
+Download get-pip.py (<https://bootstrap.pypa.io/get-pip.py>)
 
 ```shell
 > python get-pip.py
