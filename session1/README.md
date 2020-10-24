@@ -1,4 +1,5 @@
 # Preparing Python Environment
+
 ## Goal
 
 Perparing work envoronment
@@ -17,12 +18,14 @@ Perparing work envoronment
 Python Download Page: https://www.python.org/downloads/
 
 ### For Mac OS
-```
-$ brew install python
+
+```shell
+> brew install python
 ```
 
 ### For Linux
-```
+
+```shell
 > sudo apt update
 > sudo apt install software-properties-common
 > sudo add-apt-respository ppa:deadsnakes/ppa
@@ -31,12 +34,14 @@ $ brew install python
 ```
 
 ## Check python version
-```
+
+```shell
 > python --version
 ```
 
 ## Create virtual environment
-```
+
+```shell
 > python -m venv workshop
 > workshop/Script/activate
 (workshop) > deactivate
@@ -45,14 +50,16 @@ $ brew install python
 ## Python package management
 
 ### Install Pip
+
 Download get-pip.py (https://bootstrap.pypa.io/get-pip.py)
 
-```
+```shell
 > python get-pip.py
 > pip --version
 ```
 
-Install Package
-```
+### Install Package
+
+```shell
 > pip install <package name>
 ```
